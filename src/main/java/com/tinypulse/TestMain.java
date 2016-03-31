@@ -38,7 +38,7 @@ public class TestMain {
         XSLFSlide slide4 = buildTitleSlide(ppt, defaultMaster);
         setLogo(slide4, logoIndex);
 
-        save(ppt, "test-slide.pptx");
+        save(ppt, "engagement-report.pptx");
     }
 
     private static XSLFSlide buildTitleSlide(XMLSlideShow ppt, XSLFSlideMaster defaultMaster) {

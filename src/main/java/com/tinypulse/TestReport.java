@@ -18,7 +18,7 @@ import java.util.List;
  */
 public class TestReport {
     public static void main(String[] args) throws Exception{
-        XMLSlideShow ppt = new XMLSlideShow(new FileInputStream("/Users/antran/workspace/pptx-assets/Presentation3.pptx"));
+        XMLSlideShow ppt = new XMLSlideShow(new FileInputStream("/Users/antran/workspace/pptx-assets/template1.pptx"));
 
         // title slide
         List<XSLFSlide> slides = ppt.getSlides();
